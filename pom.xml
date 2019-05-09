@@ -23,7 +23,16 @@
 
 
 </dependencies>
-
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://ec2-18-224-32-87.us-east-2.compute.amazonaws.com:8081/repository/sc_snapshot/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://ec2-18-224-32-87.us-east-2.compute.amazonaws.com:8081/repository/sc_release/</url>
+    </repository>
+  </distributionManagement>
 
 </project>
 
